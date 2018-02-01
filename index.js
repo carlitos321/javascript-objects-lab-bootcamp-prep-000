@@ -1,9 +1,9 @@
-const recipes = new Object({
+const recipes = {
   stepOne: 'add flour',
   stepTwo: 'add milk',
   stepThree: 'cook',
   stepFour: 'enjoy'
-});
+};
 
 
 function updateObjectWithKeyAndValue(object, key, value) {
